@@ -1,0 +1,85 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	background-color: #f2f2f2;
+	height: 70px;
+	margin-top: 30px;
+}
+
+.margin {
+	background-color: white;
+	height: 70px;
+}
+.main {
+	padding: 0px;
+}
+
+.a {
+	border-top-style: solid;
+	border-top-width: 7px;
+	border-top-color: #8FBC8F;
+	border-right-style: solid;
+	border-right-width: 3px;
+	border-right-color: white;
+	height: 70px;
+	padding: 0px;
+}
+
+.icon {
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 12px;
+	padding-left: 3px;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: white;
+}
+.fa {
+	margin-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+h6 {
+	font-style: bold;
+	font-size: 10px;
+	margin-top: 8px;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+.icon-text {
+	padding: 0px;
+	font-size: 10px;
+	margin: 0px;
+	text-align: center;
+
+}
+.ptext {
+	padding: 0px;
+	font-size: 9px;
+	margin: 0px;
+
+}
+.b {
+	border-top-style: solid;
+	border-top-width: 7px;
+	border-top-color: #e6ccff;
+	border-right-style: solid;
+	border-right-width: 3px;
+	border-right-color: white;
+	height: 70px;
+	padding: 0px;
+}
+.c {
+	border-top-style: solid;
+	border-top-color:  #ffcce0;
+	border-top-width: 7px;
+	height: 70px;
+	padding: 0px;
+
+}
