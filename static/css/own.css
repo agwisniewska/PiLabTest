@@ -1,18 +1,20 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
-.container {
-	background-color: #f2f2f2;
-	height: 70px;
-	margin-top: 30px;
-}
+/**/
 
-.margin {
-	background-color: white;
-	height: 70px;
+a {
+	color: black;
 }
 .main {
 	padding: 0px;
+	margin-top: 30px;
+	height: 75px;
+
+}
+
+.bcrumb {
+	background-color: #f2f2f2;
 }
 
 .a {
@@ -22,48 +24,52 @@ body {
 	border-right-style: solid;
 	border-right-width: 3px;
 	border-right-color: white;
-	height: 70px;
 	padding: 0px;
+	height: 75px;
 }
 
 .icon {
 	
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-right: 12px;
-	padding-left: 3px;
 	border-right-style: solid;
-	border-right-width: 2px;
+	border-right-width: 1px;
 	border-right-color: white;
-}
-.fa {
-	margin-top: 15px;
-	padding-left: 5px;
-	padding-right: 5px;
+	height: 75px;
+	padding: 5px;
 }
 
 h6 {
-	font-style: bold;
-	font-size: 10px;
-	margin-top: 8px;
-	margin-bottom: 5px;
-	padding: 0px;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 7px;
 }
+
+.hover {
+    background-color: #d1d1e0;
+}
+
+.active {
+    background-color: #d1d1e0;
+}
+
 
 .icon-text {
-	padding: 0px;
-	font-size: 10px;
-	margin: 0px;
+	font-size: 9px;
+	margin-top:40px;
 	text-align: center;
 
+	
+}
+
+.row {
+	margin-top: 50px;
 }
 .ptext {
-	padding: 0px;
-	font-size: 9px;
+	font-size: 10px;
 	margin: 0px;
-
+}
+.bt {
+	margin-top: 120px;
 }
 .b {
 	border-top-style: solid;
@@ -72,14 +78,32 @@ h6 {
 	border-right-style: solid;
 	border-right-width: 3px;
 	border-right-color: white;
-	height: 70px;
 	padding: 0px;
+	height: 75px;
 }
 .c {
 	border-top-style: solid;
 	border-top-color:  #ffcce0;
 	border-top-width: 7px;
-	height: 70px;
+	border-right-style: solid;
+	border-right-width: 3px;
+	border-right-color: white;
 	padding: 0px;
+	height: 75px;
+}
 
+.content {
+	margin-top: 200px;
+}
+
+.breadcrumb-icon {
+    display: block;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    font-size: 25px;
+    vertical-align: middle;
+    text-align: center;
 }
