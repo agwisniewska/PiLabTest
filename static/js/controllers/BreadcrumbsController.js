@@ -1,10 +1,11 @@
 app.controller('BreadcrumbsController', ['$scope', '$routeParams','$window', function($scope, $routeParams, $window) { 
    $scope.activetile = $routeParams.tile;
-   $scope.counter = localStorage.getItem('counter')
+   $scope.counter = counter;
+
    
     $scope.increaseCounter = function() {
-      localStorage.setItem('counter', 1 + parseInt(localStorage.getItem('counter')))
-      $scope.counter = localStorage.getItem('counter')
+      counter++
+      $scope.counter = counter
     }
     $scope.openLink = function() {
       $window.open("http://www.google.com/", "_blank")

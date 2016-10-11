@@ -1,7 +1,6 @@
 var app = angular.module('testApp', ['ngRoute', 'ngSanitize']);
 
 var counter = 3;
-localStorage.setItem("counter", counter);
 
 app.config(function ($routeProvider) {
     $routeProvider
