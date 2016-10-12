@@ -1,0 +1,31 @@
+{
+  "name": "zadanie-testowe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.6.3",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "protractor": "^4.0.9",
+    "webdriver-manager": "^10.2.3"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/protractor tests/conf.js ",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agwisniewska/PiLabTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agwisniewska/PiLabTest/issues"
+  },
+  "homepage": "https://github.com/agwisniewska/PiLabTest"
+}
