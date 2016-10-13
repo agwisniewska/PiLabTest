@@ -10,5 +10,5 @@ app.config(function ($routeProvider) {
         })
     
 
-      .otherwise ({redirectTo: '/'});
+      .otherwise ({redirectTo: '/breadcrumbs/accounts'});
 })
