@@ -84,15 +84,31 @@ MongoClient.connect(url, function (err, db) {
             template: 'You are on steps page',
         };
 
-        breadcrumbs.insert([breadcrumb1, breadcrumb2, breadcrumb3, breadcrumb4, breadcrumb5], function (err, result) {
+
+        breadcrumbs.find(
+            {
+                $or: [
+                    {name: 'calls'}, {name: 'clients'}, {name: 'steps'}, {name: 'accounts'}, {name: 'details'}
+                ]
+            }).toArray(function (err, result) {
             if (err) {
                 console.log(err);
-            } else {
-                console.log('Inserted documents into the "breadcrumbs" collection');
+            } else if (result.length) {
+                console.log('Found:', result.length);
             }
-            // db.close();
-        });
 
+            else {
+                console.log('No document(s) found with defined "find" criteria!');
+                breadcrumbs.insert([breadcrumb1, breadcrumb2, breadcrumb3, breadcrumb4, breadcrumb5], function (err, result) {
+                    if (err) {
+                        console.log(err);
+                    } else {
+                        console.log('Inserted documents into the "breadcrumbs" collection');
+                    }
+                });
+            }
+
+        });
     }
 });
 

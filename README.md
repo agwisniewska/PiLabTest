@@ -10,11 +10,15 @@
 
   ``` npm install ```
 
-3. Run application
+3. Open new window in your terminal and run MongoDB
+
+   ``` mongod ```
+
+4. Run application
   
   ``` npm start ```
  
-4. Open browser and type localhost: 127.0.0.1:8080
+5. Open browser and type localhost: 127.0.0.1:8080
  
 ### To run tests you have to do the following steps
 
@@ -29,6 +33,14 @@
 3. Open another tab in the terminal and type
 
   ```npm test ```
+
+
+### To send POST request to app please use the following command
+
+  ```
+curl -H "Content-Type: application/json" -X POST -d '{"name": "accounts","class": "a","icon": "briefcase","title": "Account","titletext": "Set: Accounts","content": "Type: Deposit","additional": "Age: From 29 years to 80...","href": "/#/breadcrumbs/accounts","template": "You are on accounts page. Check console!"}' http://127.0.0.1:8080/api/breadcrumbs
+
+```
   
 
  
