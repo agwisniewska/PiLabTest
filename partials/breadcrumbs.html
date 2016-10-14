@@ -1,25 +1,28 @@
 <div class="container">
-  <div class="row">
-  	 <div class="col-lg-12 col-md-12 col-xs-12 main">
-    	 <div ng-repeat="breadcrumb in breadcrumbs  | limitTo:counter" class="col-lg-3 col-md-3 col-xs-3 bcrumb {{ breadcrumb.class }}" ng-class="{hover: hover, active: activetile == breadcrumb.name} " ng-mouseenter="hover = true" ng-mouseleave="hover = false">
-  			 <a href="{{breadcrumb.href}}" ng-click="breadcrumb.function()"><app-tile></app-tile></a>
-  		
-      </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12 main">
+            <div ng-repeat="breadcrumb in breadcrumbs  | limitTo:counter"
+                 class="col-lg-3 col-md-3 col-xs-3 bcrumb {{ breadcrumb.class }}"
+                 ng-class="{hover: hover, active: activetile == breadcrumb.name} " ng-mouseenter="hover = true"
+                 ng-mouseleave="hover = false">
+                <a href="{{breadcrumb.href}}" ng-click="breadcrumb.function()">
+                    <app-tile></app-tile>
+                </a>
 
-    
+            </div>
 
 
         </div>
 
-  </div>
-  <div class="row bt">
-      <button class="btn btn-default" ng-click="increaseCounter()"> Add another breadcrumb </button>
-  </div>
-  <div class="row">
-    <div ng-repeat="breadcrumb in breadcrumbs  | limitTo:counter" ng-if="activetile == breadcrumb.name">
-        <app-template></app-template>
     </div>
-  </div>
-	
-    
+    <div class="row bt">
+        <button class="btn btn-default" ng-click="increaseCounter()"> Add another breadcrumb</button>
+    </div>
+    <div class="row">
+        <div ng-repeat="breadcrumb in breadcrumbs  | limitTo:counter" ng-if="activetile == breadcrumb.name">
+            <app-template></app-template>
+        </div>
+    </div>
+
+
 </div>

@@ -1,47 +1,49 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
 /**/
 
 a {
-	color: black;
+    color: black;
 }
+
 .main {
-	padding: 0px;
-	margin-top: 30px;
-	height: 75px;
+    padding: 0px;
+    margin-top: 30px;
+    height: 75px;
 
 }
 
 .bcrumb {
-	background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 .a {
-	border-top-style: solid;
-	border-top-width: 7px;
-	border-top-color: #8FBC8F;
-	border-right-style: solid;
-	border-right-width: 3px;
-	border-right-color: white;
-	padding: 0px;
-	height: 75px;
+    border-top-style: solid;
+    border-top-width: 7px;
+    border-top-color: #8FBC8F;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: white;
+    padding: 0px;
+    height: 75px;
 }
 
 .icon {
-	
-	border-right-style: solid;
-	border-right-width: 1px;
-	border-right-color: white;
-	height: 75px;
-	padding: 5px;
+
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: white;
+    height: 75px;
+    padding: 5px;
 }
 
 h6 {
-	font-weight: bold;
-	font-size: 12px;
-	margin-top: 5px;
-	margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 7px;
 }
 
 .hover {
@@ -52,48 +54,50 @@ h6 {
     background-color: #d1d1e0;
 }
 
-
 .icon-text {
-	font-size: 9px;
-	margin-top:40px;
-	text-align: center;
+    font-size: 9px;
+    margin-top: 40px;
+    text-align: center;
 
-	
 }
 
 .row {
-	margin-top: 50px;
+    margin-top: 50px;
 }
+
 .ptext {
-	font-size: 10px;
-	margin: 0px;
+    font-size: 10px;
+    margin: 0px;
 }
+
 .bt {
-	margin-top: 120px;
+    margin-top: 120px;
 }
+
 .b {
-	border-top-style: solid;
-	border-top-width: 7px;
-	border-top-color: #e6ccff;
-	border-right-style: solid;
-	border-right-width: 3px;
-	border-right-color: white;
-	padding: 0px;
-	height: 75px;
+    border-top-style: solid;
+    border-top-width: 7px;
+    border-top-color: #e6ccff;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: white;
+    padding: 0px;
+    height: 75px;
 }
+
 .c {
-	border-top-style: solid;
-	border-top-color:  #ffcce0;
-	border-top-width: 7px;
-	border-right-style: solid;
-	border-right-width: 3px;
-	border-right-color: white;
-	padding: 0px;
-	height: 75px;
+    border-top-style: solid;
+    border-top-color: #ffcce0;
+    border-top-width: 7px;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: white;
+    padding: 0px;
+    height: 75px;
 }
 
 .content {
-	margin-top: 200px;
+    margin-top: 200px;
 }
 
 .breadcrumb-icon {

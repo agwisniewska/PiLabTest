@@ -4,11 +4,11 @@ var counter = 3;
 
 app.config(function ($routeProvider) {
     $routeProvider
-       .when('/breadcrumbs/:tile', {
-            templateUrl : 'partials/breadcrumbs.html',
-            controller  : 'BreadcrumbsController'
+        .when('/breadcrumbs/:tile', {
+            templateUrl: 'partials/breadcrumbs.html',
+            controller: 'BreadcrumbsController'
         })
-    
 
-      .otherwise ({redirectTo: '/breadcrumbs/accounts'});
+
+        .otherwise({redirectTo: '/breadcrumbs/accounts'});
 })

@@ -1,6 +1,6 @@
-app.directive('appTemplate', function() { 
-  return { 
-    restrict: 'EA', 
-    templateUrl: 'partials/template.html' 
-  }; 
+app.directive('appTemplate', function () {
+    return {
+        restrict: 'EA',
+        templateUrl: 'partials/template.html'
+    };
 });
