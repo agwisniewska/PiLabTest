@@ -38,7 +38,7 @@
 ### To send POST request to app please use the following command
 
   ```
-curl -H "Content-Type: application/json" -X POST -d '{"name": "accounts","class": "a","icon": "briefcase","title": "Account","titletext": "Set: Accounts","content": "Type: Deposit","additional": "Age: From 29 years to 80...","href": "/#/breadcrumbs/accounts","template": "You are on accounts page. Check console!"}' http://127.0.0.1:8080/api/breadcrumbs
+curl -H "Content-Type: application/json" -X POST -d '{"name": "tips","class": "a","icon": "question","title": "Tips","titletext": "Set: Tips","content": "Type: Deposit","additional": "","href": "/#/breadcrumbs/tips","template": "You are on tips page. Check console!"}' http://127.0.0.1:8080/api/breadcrumbs
 
 ```
   

@@ -10,21 +10,9 @@ app.controller('BreadcrumbsController', ['$scope', '$routeParams', '$window', 't
         counter++
         $scope.counter = counter
     }
-    $scope.openLink = function () {
-        $window.open("http://www.google.com/", "_blank")
-    }
 
     $scope.writeinConsole = function () {
         console.log('Success')
     }
-
-    $scope.addnewItem = function () {
-        console.log('Added')
-    }
-
-    $scope.getUrl = function () {
-        $scope.activetile = $routeParams.tile
-    }
-
 
 }]);

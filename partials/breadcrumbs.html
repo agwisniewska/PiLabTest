@@ -5,7 +5,7 @@
                  class="col-lg-3 col-md-3 col-xs-3 bcrumb {{ breadcrumb.class }}"
                  ng-class="{hover: hover, active: activetile == breadcrumb.name} " ng-mouseenter="hover = true"
                  ng-mouseleave="hover = false">
-                <a href="{{breadcrumb.href}}" ng-click="breadcrumb.function()">
+                <a href="{{breadcrumb.href}}" ng-click="writeinConsole()">
                     <app-tile></app-tile>
                 </a>
 
