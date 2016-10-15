@@ -1,4 +1,4 @@
-## PiLabTest Task
+## Task
 
 ### To run project on your local environment you have to do the following steps
 
@@ -10,7 +10,7 @@
 
   ``` npm install ```
 
-3. Open new window in your terminal and run MongoDB
+3. Open new tab in your terminal and run MongoDB
 
    ``` mongod ```
 
